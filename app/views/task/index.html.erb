@@ -1,6 +1,7 @@
-<div class='container'>
+<div class='container' ng-controller='TaskCtrl'>
 	<div class='row text-center'>
 		<h1>Tasks</h1>
+		<pre>{{message}}</pre>
 		<ul class='list-group'>
 			<% @tasks.each do |task| %>
 			  <li class='list-group-item'><%= task.title %></li>

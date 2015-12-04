@@ -12,5 +12,11 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
-//= require_tree .
+//= require angular/angular
+//= require angular-ui-router/release/angular-ui-router
+//= require_self
+//= require controllers/task
+
+var app = angular.module('rails-task-list', [
+	'ui.router'
+]);

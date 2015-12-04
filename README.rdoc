@@ -1,28 +1,6 @@
-== README
+Rails Task List
+===
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[Part 1](https://medium.com/@jasonshark/ruby-on-rails-introduction-for-the-total-n00b-fdc1a7f6567e#.bfte8gwl7) - Create the Rails application
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+[Part 2]() - Add angular.js and bower
