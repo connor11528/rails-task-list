@@ -2,13 +2,14 @@
 <html ng-app='rails-task-list'>
 <head>
   <title>RailsAngular</title>
-  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <base href='/' />
+  <%= stylesheet_link_tag 'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
-
+	<h1>In application</h1>
+	<%= yield %>
 </body>
 </html>
