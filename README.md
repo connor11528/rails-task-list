@@ -5,4 +5,4 @@ Rails Task List
 
 [Part 2](https://medium.com/@jasonshark/add-angular-js-to-ruby-on-rails-app-8be2104e1238#.3n55nwow4) - Add angular.js and bower to application
 
-[Part 3]() - Make ajax requests for tasks
+[Part 3](https://medium.com/@jasonshark/add-routing-to-an-angular-ruby-on-rails-app-c7406e2931a0#.7c14gynei) - Add routing and async data fetching with Angular
