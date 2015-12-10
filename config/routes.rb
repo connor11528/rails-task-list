@@ -3,7 +3,13 @@ Rails.application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
-  # You can have the root of your site routed with "root"
+  scope '/api' do
+    scope '/v1' do
+      scope '/tasks' do
+        get '/' => 'task#all'
+      end
+    end
+  end
 
   root :to => "task#index"
   get "*unmatched_route" => "task#index"

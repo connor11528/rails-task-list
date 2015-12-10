@@ -1,4 +1,12 @@
-<h2>Hello I am tasks.html.erb</h2>
 
+<div class='container'>
+	<div class='row text-center'>
+		<h2>Task List</h2>
+		<ul class='list-group'>
+			<li class='list-group-item' ng-repeat='task in tasks'>
+				{{task.title}}
+			</li>
+		</ul>
+	</div>
+</div>
 
-<pre>{{message}}</pre>
